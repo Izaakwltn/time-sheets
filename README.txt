@@ -1,6 +1,8 @@
 time-sheets
 
-A simple timesheet/appointment chart generator from the REPL
+A simple timesheet/appointment chart generator from the REPL.
+It can handle multiple months, any lessons will be pushed to the 
+corresponding month's lesson list.
 
 TIME-SHEETS> (taught 5 23 "Mozart" 30 "arrived")
 (#<LESSON 5/23/21 | Mozart | 30 minutes | arrived>)
